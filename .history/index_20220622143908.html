@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="./src/font/Font SVN/Tong-Hop-Fonts-SVN/SVN-Product Sans Regular.otf"
+    />
+    <link
+      rel="stylesheet"
+      href="src/font/Font SVN/Tong-Hop-Fonts-SVN/SVN-Product Sans Bold.otf"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      .cart-number {
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+      }
+      h2,
+      li,
+      a {
+        font-family: "SVN-Product Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f4f4f4]">
+    <div class="wrapper w-[1440px] max-w-full m-auto ">
+      <header
+        class="header fixed top-0 right-0 left-0 z-[1] bg-white shadow-[0_6px_8px_rgba(0,0,0,0.1)]"
+      >
+        <div class="container w-[1230px] max-w-full m-auto">
+          <div class="logo flex items-center justify-between mx-[26px]">
+            <div class="flex items-center py-[17px]">
+              <div class=" ">
+                <img
+                  srcset="./src/img/Logo-BeeYou.png 2x"
+                  alt=""
+                  class="logo mr-[64px]"
+                />
+              </div>
+              <!-- after:bg-[#FFC800] -->
+              <!-- hover:after:content-[''] hover:after:bg-[#FFC800]  -->
+              <ul class="flex gap-x-[40px]">
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold">Trang chủ</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-[104%] h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Tote collection</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Về chúng tôi</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative leading-6 group transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Liên hệ</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cart relative">
+              <img srcset="./src/img/Group16.png 2x" alt="" />
+              <div
+                class="absolute bg-[#009EFE] w-5 h-5 text-white rounded-full flex justify-center items-center border-[1.8px] border-solid border-[#F4F4F4] top-[-7px] right-[-4px]"
+              >
+                <span class="cart-number text-[12px] font-medium">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container w-[1230px] max-w-full m-auto mt-[106px]">
+        <div class="banner">
+          <img srcset="./src/img/Rectangle3.png 2x" alt="" />
+        </div>
+        <div class=" gap-x-2 flex justify-center">
+          <span
+            class="w-5 h-5 rounded-full inline-block bg-[#FFC800] border border-[#ccc] "
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block  bg-white border border-[#ccc] "
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block bg-white border border-[#ccc] "
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block bg-white border border-[#ccc] "
+          ></span>
+        </div>
+      </div>
+      <div class="container w-[1230px] max-w-full m-auto">
+        <div class="flex justify-between relative">
+          <div class="mt-[93px] text-left">
+            <h2 class="font-bold text-5xl leading-[72px] w-[530px] h-[216px]" >Tote của BeeYou cam kết mang đến sự hài lòng tối đa cho bạn</h2>
+          </div>
+          <div>
+            <div class="flex justify-center mt-[176px]">
+              <img srcset="./src/img/chi-gai.png 2x" alt="" class=" absolute w-[192px] h-[605px] ">
+            </div>
+          </div>
+          <div class="w-[390px] h-[330px] mt-[102px] ">
+            <p class="mb-5 font-normal">
+              Với cộng đồng nhà thiết kế, chúng tôi là ngôi nhà thời trang,nơi
+              chắp cánh cho hàng vạn mẫu thiết kế của các Designer trên khắp
+              Vietnam.
+            </p>
+            <p class="mb-5 font-normal">
+              Với khách hàng, BeeYou là nơi bạn dễ dàng tìm thấy những những sản
+              phẩm thời trang thể hiện CHẤT của riêng mình. Là chính mình cùng
+              BeeYou.
+            </p>
+            <p class="mb-5 font-normal">
+              Với đội ngũ lâu năm kinh nghiệm, có tâm với nghề, những dòng sản
+              phẩm của BeeYou được tuyển chọn những nguyên vật liệu cao cấp
+              nhất, gia công tinh xảo, công nghệ tối tân nhất hiện nay, được
+              kiểm tra chất lượng đầu ra khắt khe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

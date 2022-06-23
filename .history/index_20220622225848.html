@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="./src/font/Font SVN/Tong-Hop-Fonts-SVN/SVN-Product Sans Regular.otf"
+    />
+    <link
+      rel="stylesheet"
+      href="src/font/Font SVN/Tong-Hop-Fonts-SVN/SVN-Product Sans Bold.otf"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      .cart-number {
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+      }
+      h2,
+      li,
+      a,
+      .svn-title {
+        font-family: "SVN-Product Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f4f4f4]">
+    <div class="wrapper w-[1440px] max-w-full m-auto">
+      <header
+        class="header fixed top-0 right-0 left-0 z-[1] bg-white shadow-[0_6px_8px_rgba(0,0,0,0.1)]"
+      >
+        <div class="container w-[1230px] max-w-full m-auto">
+          <div class="logo flex items-center justify-between mx-[26px]">
+            <div class="flex items-center py-[17px]">
+              <div class=" ">
+                <img
+                  srcset="./src/img/Logo-BeeYou.png 2x"
+                  alt=""
+                  class="logo mr-[64px]"
+                />
+              </div>
+              <!-- after:bg-[#FFC800] -->
+              <!-- hover:after:content-[''] hover:after:bg-[#FFC800]  -->
+              <ul class="flex gap-x-[40px]">
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold">Trang chủ</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-[104%] h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Tote collection</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative group leading-6 transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Về chúng tôi</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+                <li
+                  class="relative leading-6 group transition-all ease-linear duration-100"
+                >
+                  <a href="#" class="font-bold leading-6">Liên hệ</a>
+                  <span
+                    class="absolute bottom-0 left-0 bg-[#FFC800] translate-y-[-50%] w-full h-[6px] rounded-[6px] z-[-1] opacity-0 group-hover:opacity-100 leading-6 transition-all ease-linear duration-100"
+                  ></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cart relative">
+              <a href="#"><img srcset="./src/img/Group16.png 2x" alt="" /> </a>
+              <div
+                class="absolute select-none bg-[#009EFE] w-5 h-5 text-white rounded-full flex justify-center items-center border-[1.8px] border-solid border-[#F4F4F4] top-[-7px] right-[-4px]"
+              >
+                <span class="cart-number text-[12px] font-medium select-none">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container w-[1230px] max-w-full m-auto mt-[106px] ">
+        <div class="banner">
+          <img srcset="./src/img/Rectangle3.png 2x" alt="" />
+        </div>
+        <div class="gap-x-2 flex justify-center">
+          <span
+            class="w-5 h-5 rounded-full inline-block cursor-pointer bg-[#FFC800] border"
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block cursor-pointer bg-white border border-[#d5d1d1]"
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block cursor-pointer bg-white border border-[#d5d1d1]"
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block cursor-pointer bg-white border border-[#d5d1d1]"
+          ></span>
+        </div>
+      </div>
+      <!-- end-header -->
+      <!-- content -->
+      <div class="promise mt-[120px]">
+        <div class="container w-[1230px] max-w-full m-auto">
+          <div class="relative">
+            <img
+              srcset="./src/img/chi-gai.png 2x"
+              alt=""
+              class="w-[192px] h-[605px] m-auto"
+            />
+            <img
+              srcset="./src/img/Vector-second.png 2x"
+              alt=""
+              class="z-[-1] absolute top-[50%] left-[49%] translate-y-[-50%] translate-x-[-50%]"
+            />
+            <img
+              srcset="./src/img/Intersect.png 2x"
+              alt=""
+              class="w-[306px] h-[393px] absolute top-[40%] left-[49%] z-[-2] translate-y-[-50%] translate-x-[-50%]"
+            />
+            <img
+              srcset="./src/img/Frame.png 2x"
+              alt=""
+              class="w-[1093.35px] h-[385px] absolute top-[50%] left-[49%] z-[-2] translate-y-[-14%] translate-x-[-51%]"
+            />
+            <img
+              srcset="./src/img/Vector3.png 2x"
+              alt=""
+              class="absolute top-[100%] right-[50%]"
+            />
+
+            <h2
+              class="font-bold absolute top-0 left-0 text-5xl leading-[72px] w-[530px] h-[216px]"
+            >
+              Tote của BeeYou cam kết mang đến sự hài lòng tối đa cho bạn
+            </h2>
+
+            <div class="w-[390px] absolute right-0 top-0 h-[330px]">
+              <p class="mb-5 font-normal">
+                Với cộng đồng nhà thiết kế, chúng tôi là ngôi nhà thời trang,nơi
+                chắp cánh cho hàng vạn mẫu thiết kế của các Designer trên khắp
+                Vietnam.
+              </p>
+              <p class="mb-5 font-normal">
+                Với khách hàng, BeeYou là nơi bạn dễ dàng tìm thấy những những
+                sản phẩm thời trang thể hiện CHẤT của riêng mình. Là chính mình
+                cùng BeeYou.
+              </p>
+              <p class="mb-5 font-normal">
+                Với đội ngũ lâu năm kinh nghiệm, có tâm với nghề, những dòng sản
+                phẩm của BeeYou được tuyển chọn những nguyên vật liệu cao cấp
+                nhất, gia công tinh xảo, công nghệ tối tân nhất hiện nay, được
+                kiểm tra chất lượng đầu ra khắt khe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-[12rem] mb-[110px]">
+        <div class="container xl:w-[1230px] max-w-full m-auto">
+          <div class="row-tote flex gap-x-[83px]">
+            <div class="col basis-3/5">
+              <h2 class="font-bold text-5xl leading-[72px]">
+                Siêu phẩm Tote mới ra lò
+              </h2>
+              <p class="leading-6 font-normal w-[600px]">
+                Mới "chế" ra cái Tote mới các bác ạ. Thông tin mô tả sơ bộ các
+                bác đọc ở dưới nhé. em đi đóng hàng giao cho khách phát
+              </p>
+              <div
+                class="mt-[55px] relative bg-white shadow-[8px_8px_20px_rgba(0,0,0,0.1)] px-[40px] py-8 rounded-2xl"
+              >
+                <h4 class="font-medium leading-6">Thông tin mô tả sơ bộ</h4>
+                <ul class=" ">
+                  <li class="block mb-4 mt-[23px]">
+                    <img
+                      class="inline-block mr-3"
+                      srcset="./src/img/textile1.png 2x"
+                      alt=""
+                    />
+                    Chất vải canvas mềm mịn, không xù, không nhão
+                  </li>
+                  <li class="block mb-4">
+                    <img
+                      class="inline-block mr-3"
+                      srcset="./src/img/colors1.png 2x"
+                      alt=""
+                    />Bee có 5 màu cho bạn lựa canh: Xanh dương, Hồng baby, Vàng
+                    chanh,...
+                  </li>
+                  <li class="block mb-4">
+                    <img
+                      class="inline-block mr-3"
+                      srcset="./src/img/fit-vertical1.png 2x"
+                      alt=""
+                    />Size túi: 38*34*7cm
+                  </li>
+                  <li class="block mb-[22px]">
+                    <img
+                      class="inline-block mr-3"
+                      srcset="./src/img/zipper1.png 2x"
+                      alt=""
+                    />Túi có khoá kéo, túi con tiện lợi cho nàng sử dụng
+                  </li>
+                </ul>
+                <img
+                  srcset="./src/img/Tape1.png 2x"
+                  alt=""
+                  class="absolute top-[-30px] left-[-30px] rotate-[4deg]"
+                />
+                <button
+                  class="svn-title py-2 px-6 min-w-[170px] border bg-[#FFC800] rounded-xl font-bold"
+                >
+                  Tìm hiểu thêm
+                </button>
+              </div>
+            </div>
+            <div class="col basis-2/5 relative">
+              <img srcset="./src/img/image11.png 2x" alt="" class="m-auto" />
+              <img
+                srcset="./src/img/Ellipse-yellow.png 2x"
+                alt=""
+                class="absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[-1]"
+              />
+              <img
+                srcset="./src/img/Intersect-circle.png 2x"
+                alt=""
+                class="absolute top-[55%] left-[53%] translate-x-[-50%] translate-y-[-50%] z-[-2] opacity-90"
+              />
+              <img
+                srcset="./src/img/image12.png 2x"
+                alt=" "
+                class="absolute z-[-1] top-[14%] left-[22%]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-32 mb-[500px]">
+        <div class="container xl:w-[1230px] max-w-full m-auto">
+          <div class="mt-[130px]">
+            <h2 class="font-bold text-5xl leading-[72px]">Tote giá “nóng”</h2>
+            <p class="mb-[92px]">
+              Đống này đang giảm giá nên rất "nóng”. Bạn còn chờ gì nữa mà
+              "phỏng tay” ngay đi
+            </p>
+          </div>
+          <div class="row grid grid-cols-4 gap-x-8 ">
+            <div class="col bg-white rounded-2xl h-[390px] hover:h-[450px] relative transition-all ease-linear duration-200 overflow-hidden px-6 pt-6 pb-1 shadow-[0_20px_20px_rgba(0,0,0,0.05)] cursor-pointer group hover:border-[4px] border-[4px] border-transparent hover:border-[#FFC800] hover:overflow-visible  hover:flex-shrink-0">
+              <div class="">
+                <a href="#"><img srcset="./src/img/Img.png 2x" alt="" /></a>
+              </div >
+              <div class="">
+             <a href="#"> <h4 class="svn-title block mt-3 font-bold leading-6">
+              Túi Totes Cactus Bag nữ tính xành điệu
+            </h4></a>
+              
+              <span class="block text-[#009EFE] font-bold leading-6">
+                320.000 đ
+              </span>
+              <div class="flex gap-x-3">
+              <span
+                class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_6px_rgba(0,0,0,0.1)] bg-[#EF9CD6]"
+              ></span
+              ><span
+                class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#009EFE]"
+              ></span
+              ><span
+                class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#F4EA88]"
+              ></span>
+              <span
+                class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] border bg-white"
+              ></span>
+
+            </div>
+              <button class="min-w-full bg-[#FFC800] font-bold svn-title leading-6 py-2 px-6 rounded-xl">Mua ngay</button>
+            </div>
+            <img srcset="./src/img/Intersect2.png 2x" alt="" class="absolute top-[-4%] left-[17%] z-[-1] opacity-0 group-hover:opacity-100">
+          </div>
+          <div class="col bg-white rounded-2xl h-[390px] hover:h-[450px] relative transition-all ease-linear duration-200 overflow-hidden px-6 pt-6 pb-1 shadow-[0_20px_20px_rgba(0,0,0,0.05)] cursor-pointer group hover:border-[4px] border-[4px] border-transparent hover:border-[#FFC800] hover:overflow-visible  hover:flex-shrink-0">
+            <div class="">
+              <a href="#"><img srcset="./src/img/Img.png 2x" alt="" /></a>
+            </div >
+            <div class="">
+           <a href="#"> <h4 class="svn-title block mt-3 font-bold leading-6">
+            Túi Totes Cactus Bag nữ tính xành điệu
+          </h4></a>
+            
+            <span class="block text-[#009EFE] font-bold leading-6">
+              320.000 đ
+            </span>
+            <div class="flex gap-x-3">
+            <span
+              class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_6px_rgba(0,0,0,0.1)] bg-[#EF9CD6]"
+            ></span
+            ><span
+              class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#009EFE]"
+            ></span
+            ><span
+              class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#F4EA88]"
+            ></span>
+            <span
+              class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] border bg-white"
+            ></span>
+
+          </div>
+            <button class="min-w-full bg-[#FFC800] font-bold svn-title leading-6 py-2 px-6 rounded-xl">Mua ngay</button>
+          </div>
+          <img srcset="./src/img/Intersect2.png 2x" alt="" class="absolute top-[-4%] left-[17%] z-[-1] opacity-0 group-hover:opacity-100">
+        </div>
+        <div class="col bg-white rounded-2xl h-[390px] hover:h-[450px] relative transition-all ease-linear duration-200 overflow-hidden px-6 pt-6 pb-1 shadow-[0_20px_20px_rgba(0,0,0,0.05)] cursor-pointer group hover:border-[4px] border-[4px] border-transparent hover:border-[#FFC800] hover:overflow-visible  hover:flex-shrink-0">
+          <div class="">
+            <a href="#"><img srcset="./src/img/Img.png 2x" alt="" /></a>
+          </div >
+          <div class="">
+         <a href="#"> <h4 class="svn-title block mt-3 font-bold leading-6">
+          Túi Totes Cactus Bag nữ tính xành điệu
+        </h4></a>
+          
+          <span class="block text-[#009EFE] font-bold leading-6">
+            320.000 đ
+          </span>
+          <div class="flex gap-x-3">
+          <span
+            class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_6px_rgba(0,0,0,0.1)] bg-[#EF9CD6]"
+          ></span
+          ><span
+            class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#009EFE]"
+          ></span
+          ><span
+            class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#F4EA88]"
+          ></span>
+          <span
+            class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] border bg-white"
+          ></span>
+
+        </div>
+          <button class="min-w-full bg-[#FFC800] font-bold svn-title leading-6 py-2 px-6 rounded-xl">Mua ngay</button>
+        </div>
+        <img srcset="./src/img/Intersect2.png 2x" alt="" class="absolute top-[-4%] left-[17%] z-[-1] opacity-0 group-hover:opacity-100">
+      </div>
+      <div class="col bg-white rounded-2xl h-[390px] hover:h-[450px] relative transition-all ease-linear duration-200 overflow-hidden px-6 pt-6 pb-1 shadow-[0_20px_20px_rgba(0,0,0,0.05)] cursor-pointer group hover:border-[4px] border-[4px] border-transparent hover:border-[#FFC800] hover:overflow-visible  hover:flex-shrink-0">
+        <div class="">
+          <a href="#"><img srcset="./src/img/Img.png 2x" alt="" /></a>
+        </div >
+        <div class="">
+       <a href="#"> <h4 class="svn-title block mt-3 font-bold leading-6">
+        Túi Totes Cactus Bag nữ tính xành điệu
+      </h4></a>
+        
+        <span class="block text-[#009EFE] font-bold leading-6">
+          320.000 đ
+        </span>
+        <div class="flex gap-x-3">
+        <span
+          class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_6px_rgba(0,0,0,0.1)] bg-[#EF9CD6]"
+        ></span
+        ><span
+          class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#009EFE]"
+        ></span
+        ><span
+          class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] bg-[#F4EA88]"
+        ></span>
+        <span
+          class="w-5 h-5 rounded-full inline-block mt-2 cursor-pointer mb-6 shadow-[0_6px_4px_rgba(0,0,0,0.1)] border bg-white"
+        ></span>
+
+      </div>
+        <button class="min-w-full bg-[#FFC800] font-bold svn-title leading-6 py-2 px-6 rounded-xl">Mua ngay</button>
+      </div>
+      <img srcset="./src/img/Intersect2.png 2x" alt="" class="absolute top-[-4%] left-[17%] z-[-1] opacity-0 group-hover:opacity-100">
+    </div>
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
